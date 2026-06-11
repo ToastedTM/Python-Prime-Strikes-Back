@@ -1,4 +1,3 @@
-# Python-Prime-Strikes-Back
 
 # Python Prime Strikes Back!
 
