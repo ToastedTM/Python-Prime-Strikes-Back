@@ -1,0 +1,182 @@
+public class Player 
+{
+    private String name;
+    private int score;
+    private int gamesPlayed;
+    
+    public Player() 
+    {
+        name = "Unkown";
+        score = 0;
+        gamesPlayed = 0;
+    }
+    
+    public Player(String name)
+    {
+        
+        this.name = name;
+        score = 0;
+        gamesPlayed = 1;
+    }
+    
+    public String getName()
+    {
+        
+        return name;
+    }
+    
+    public void setName(String name)
+    {
+        
+        this.name = name;
+    }
+    
+    public int getScore()
+    {
+        
+        return score;
+    }
+    
+    public void setScore(int score)
+    {
+        
+        this.score = score;
+    }
+    
+    public void addPoint() 
+    {
+        
+        score++;
+    }
+    
+    @Override
+    public String toString() {
+        return "Player: " + name +
+                "\nScore: " + score +
+                "\nGames Played: " + gamesPlayed;
+    }
+    
+}
+
+
+public class Player 
+{
+    private String name;
+    private int score;
+    private int gamesPlayed;
+    
+    public Player() 
+    {
+        name = "Unkown";
+        score = 0;
+        gamesPlayed = 0;
+    }
+    
+    public Player(String name)
+    {
+        
+        this.name = name;
+        score = 0;
+        gamesPlayed = 1;
+    }
+    
+    public String getName()
+    {
+        
+        return name;
+    }
+    
+    public void setName(String name)
+    {
+        
+        this.name = name;
+    }
+    
+    public int getScore()
+    {
+        
+        return score;
+    }
+    
+    public void setScore(int score)
+    {
+        
+        this.score = score;
+    }
+    
+    public void addPoint() 
+    {
+        
+        score++;
+    }
+    
+    @Override
+    public String toString() {
+        return "Player: " + name +
+                "\nScore: " + score +
+                "\nGames Played: " + gamesPlayed;
+    }
+    
+}
+
+
+
+public class Player 
+{
+    private String name;
+    private int score;
+    private int gamesPlayed;
+    
+    public Player() 
+    {
+        name = "Unkown";
+        score = 0;
+        gamesPlayed = 0;
+    }
+    
+    public Player(String name)
+    {
+        
+        this.name = name;
+        score = 0;
+        gamesPlayed = 1;
+    }
+    
+    public String getName()
+    {
+        
+        return name;
+    }
+    
+    public void setName(String name)
+    {
+        
+        this.name = name;
+    }
+    
+    public int getScore()
+    {
+        
+        return score;
+    }
+    
+    public void setScore(int score)
+    {
+        
+        this.score = score;
+    }
+    
+    public void addPoint() 
+    {
+        
+        score++;
+    }
+    
+    @Override
+    public String toString() {
+        return "Player: " + name +
+                "\nScore: " + score +
+                "\nGames Played: " + gamesPlayed;
+    }
+    
+}
